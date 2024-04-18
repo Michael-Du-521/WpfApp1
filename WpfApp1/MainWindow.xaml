@@ -14,5 +14,6 @@
         <Calendar HorizontalAlignment="Left" Margin="750,434,0,0" VerticalAlignment="Top" Height="200" Width="200" RenderTransformOrigin="1.275,0.995"/>
         <TextBlock>Hello,Miguel Here!</TextBlock>
         <TextBlock>Hello,Miguel Here!</TextBlock>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="1010,669,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
