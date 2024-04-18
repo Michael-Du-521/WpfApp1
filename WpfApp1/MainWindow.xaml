@@ -15,5 +15,6 @@
         <TextBlock>Hello,Miguel Here!</TextBlock>
         <TextBlock>Hello,Miguel Here!</TextBlock>
         <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="1010,669,0,0" VerticalAlignment="Top"/>
+        <Canvas/>
     </Grid>
 </Window>
