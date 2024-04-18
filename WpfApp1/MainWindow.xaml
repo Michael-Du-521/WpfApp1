@@ -9,10 +9,10 @@
     <Grid x:Name="MyGrid">
         <Grid.RowDefinitions>
         </Grid.RowDefinitions>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="640,664,0,0" VerticalAlignment="Top"/>
-        <Button Content=" Submit" HorizontalAlignment="Left" Margin="550,659,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="Click me plz" HorizontalAlignment="Left" Margin="895,654,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.149,0.754" Click="Button_Click"/>
+        <Button Content=" Submit" HorizontalAlignment="Left" Margin="795,654,0,0" VerticalAlignment="Top" Click="Button_Click"/>
         <Calendar HorizontalAlignment="Left" Margin="750,434,0,0" VerticalAlignment="Top" Height="200" Width="200" RenderTransformOrigin="1.275,0.995"/>
-
+        <TextBlock>Hello,Miguel Here!</TextBlock>
 
     </Grid>
 </Window>
