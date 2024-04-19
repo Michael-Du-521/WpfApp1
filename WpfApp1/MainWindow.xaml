@@ -52,6 +52,7 @@
             <TabItem Header=" I dont know">
                 <Grid Background="Azure"></Grid>
             </TabItem>
+            <PasswordBox Width="120"/>
         </TabControl>
         <WrapPanel/>
     </Grid>
