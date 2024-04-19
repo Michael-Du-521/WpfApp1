@@ -43,7 +43,12 @@
         <Label Content="Hello Never Never Give up" HorizontalAlignment="Left" Margin="1280,879,0,0" VerticalAlignment="Top"/>
         <TabControl>
             <TabItem Header="TabItem">
-                <Grid Background="#FFE5E5E5"/>
+                <Grid Background="#FFE5E5E5">
+                    <DatePicker HorizontalAlignment="Left" Margin="492,314,0,0" VerticalAlignment="Top"/>
+                    <Grid>
+                        <GroupBox Header="GroupBox"/>
+                    </Grid>
+                </Grid>
             </TabItem>
             <TabItem Header="TabItem" d:IsEnabled="False">
                 <Grid Background="#FFE5E5E5">
