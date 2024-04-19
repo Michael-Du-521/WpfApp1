@@ -43,7 +43,19 @@
         <Label Content="Hello Never Never Give up" HorizontalAlignment="Left" Margin="1280,879,0,0" VerticalAlignment="Top"/>
         <TabControl>
             <TabItem Header="TabItem">
-                <Grid Background="#FFE5E5E5"/>
+                <Grid Background="#FFE5E5E5">
+                    <Frame Content="Frame"/>
+                    <RichTextBox>
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text="RichTextBox"/>
+                                <InlineUIContainer>
+                                    <Slider Width="120"/>
+                                </InlineUIContainer>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                </Grid>
             </TabItem>
             <TabItem Header="TabItem" d:IsEnabled="False">
                 <Grid Background="#FFE5E5E5">
