@@ -16,6 +16,7 @@
         <TextBlock>Hello,Miguel Here!</TextBlock>
         <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="1010,669,0,0" VerticalAlignment="Top"/>
         <Canvas/>
+        <ComboBox HorizontalAlignment="Left" Margin="295,374,0,0" VerticalAlignment="Top" Width="120"/>
         <ComboBox HorizontalAlignment="Center" Margin="1050,532,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.548"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="1230,609,0,0" VerticalAlignment="Top" Width="100"/>
         <DatePicker HorizontalAlignment="Left" Margin="1023,559,0,0" VerticalAlignment="Top"/>
