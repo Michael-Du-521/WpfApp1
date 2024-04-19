@@ -15,51 +15,5 @@
         <TextBlock>Hello,Miguel Here!</TextBlock>
         <TextBlock>Hello,Miguel Here!</TextBlock>
         <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="1010,669,0,0" VerticalAlignment="Top"/>
-        <Canvas/>
-        <ComboBox HorizontalAlignment="Left" Margin="295,374,0,0" VerticalAlignment="Top" Width="120"/>
-        <ComboBox HorizontalAlignment="Center" Margin="1050,532,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.548"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="1230,609,0,0" VerticalAlignment="Top" Width="100"/>
-        <DatePicker HorizontalAlignment="Left" Margin="1023,559,0,0" VerticalAlignment="Top"/>
-        <ProgressBar HorizontalAlignment="Left" Height="10" Margin="1275,609,0,0" VerticalAlignment="Top" Width="100"/>
-        <Rectangle HorizontalAlignment="Left" Height="100" Margin="1025,424,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" RenderTransformOrigin="-0.1,0.05"/>
-        <DockPanel LastChildFill="False">
-            <DocumentViewer Width="760" RenderTransformOrigin="0.5,0.5" Height="718">
-                <DocumentViewer.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform/>
-                        <SkewTransform AngleY="-6.71"/>
-                        <RotateTransform/>
-                        <TranslateTransform Y="-5.882"/>
-                    </TransformGroup>
-                </DocumentViewer.RenderTransform>
-            </DocumentViewer>
-            <DataGrid Width="100" d:ItemsSource="{d:SampleData ItemCount=5}"/>
-            <Ellipse Stroke="Black" Width="100"/>
-            <Expander Header="Expander" Width="100">
-                <Grid Background="#FFE5E5E5"/>
-            </Expander>
-            <StackPanel Width="100"/>
-        </DockPanel>
-        <Label Content="Hello Never Never Give up" HorizontalAlignment="Left" Margin="1280,879,0,0" VerticalAlignment="Top"/>
-        <TabControl>
-            <TabItem Header="TabItem">
-                <Grid Background="#FFE5E5E5">
-                    <DatePicker HorizontalAlignment="Left" Margin="492,314,0,0" VerticalAlignment="Top"/>
-                    <Grid>
-                        <GroupBox Header="GroupBox"/>
-                    </Grid>
-                </Grid>
-            </TabItem>
-            <TabItem Header="TabItem" d:IsEnabled="False">
-                <Grid Background="#FFE5E5E5">
-                    <Slider HorizontalAlignment="Left" Margin="637,829,0,0" VerticalAlignment="Top" Width="120"/>
-                </Grid>
-            </TabItem>
-            <TabItem Header=" I dont know">
-                <Grid Background="Azure"></Grid>
-            </TabItem>
-            <PasswordBox Width="120"/>
-        </TabControl>
-        <WrapPanel/>
     </Grid>
 </Window>
