@@ -7,23 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="1000" Width="1600">
     <Grid x:Name="MyGrid">
-        <Grid.RowDefinitions>
-        </Grid.RowDefinitions>
-        <Button Content="Click me plz" HorizontalAlignment="Left" Margin="895,654,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.149,0.754" Click="Button_Click"/>
-        <Button Content=" Submit" HorizontalAlignment="Left" Margin="795,654,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <Calendar HorizontalAlignment="Left" Margin="750,434,0,0" VerticalAlignment="Top" Height="200" Width="200" RenderTransformOrigin="1.275,0.995"/>
-        <TextBlock>Hello,Miguel Here!</TextBlock>
-        <TextBlock>Hello,Miguel Here!</TextBlock>
-        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="1010,669,0,0" VerticalAlignment="Top"/>
-                <Grid Background="Azure"></Grid>
-            </TabItem>
-            <PasswordBox Width="120"/>
-        </TabControl>
-        <WrapPanel/>
-                <Grid Background="Azure"></Grid>
-            </TabItem>
-            <PasswordBox Width="120"/>
-        </TabControl>
-        <WrapPanel/>
+        <GroupBox Header="GroupBox"/>
+        <Slider HorizontalAlignment="Left" Margin="625,349,0,0" VerticalAlignment="Top" Width="830" Height="395" RenderTransformOrigin="0.627,0.722"/>
     </Grid>
 </Window>
