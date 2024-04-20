@@ -9,5 +9,7 @@
     <Grid x:Name="MyGrid">
         <GroupBox Header="GroupBox"/>
         <Slider HorizontalAlignment="Left" Margin="625,349,0,0" VerticalAlignment="Top" Width="830" Height="395" RenderTransformOrigin="0.627,0.722"/>
+        <Frame Content="Frame"/>
+        <Label Content="Blabla" HorizontalAlignment="Left" Margin="495,489,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
