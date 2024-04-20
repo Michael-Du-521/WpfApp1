@@ -15,5 +15,15 @@
         <TextBlock>Hello,Miguel Here!</TextBlock>
         <TextBlock>Hello,Miguel Here!</TextBlock>
         <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="1010,669,0,0" VerticalAlignment="Top"/>
+                <Grid Background="Azure"></Grid>
+            </TabItem>
+            <PasswordBox Width="120"/>
+        </TabControl>
+        <WrapPanel/>
+                <Grid Background="Azure"></Grid>
+            </TabItem>
+            <PasswordBox Width="120"/>
+        </TabControl>
+        <WrapPanel/>
     </Grid>
 </Window>
